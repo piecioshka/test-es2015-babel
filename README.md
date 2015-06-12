@@ -37,4 +37,4 @@ Na stronie głównej jest wyszczególniona lista wszystkich rzeczy które wspier
  - Type annotations
  - Unicode regex
 
-Poznajmy te wszystkie zagadnienia!
+Poznajmy wszystkie te zagadnienia!
