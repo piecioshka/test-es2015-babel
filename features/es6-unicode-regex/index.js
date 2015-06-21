@@ -1,6 +1,6 @@
 // TODO: Unicode regex (ES6)
 
-var foo = function () {
+let foo = () => {
     return "𠮷".match(/./u)[0].length == 2;
 };
 

@@ -1,7 +1,7 @@
 // Template literals (ES6)
 
-var foo = 1;
-var bar = `foo: ${foo}`;
+let foo = 1;
+let bar = `foo: ${foo}`;
 
 console.log(bar);
 

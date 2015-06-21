@@ -1,20 +1,31 @@
 // For-of (ES6)
 
-var object = {
-    [Symbol.iterator]: function () {
-        var value = 0;
+let object = {
+    list: ['foo', 'bar', 'baz'],
+    // create my own iterator through `this.list`
+    [Symbol.iterator]() {
+        let index = 0;
 
         return {
-            next: function () {
+            next: () => {
                 return {
-                    done: Boolean(value),
-                    value: value++
+                    done: index >= this.list.length,
+                    value: this.list[index++]
                 }
             }
         }
     }
 };
 
-for (var i of object) {
+for (let i of object) {
     console.log(i);
+}
+
+// ----------------------------------------------------------------------------
+
+let alphabet = ['a', 'b', 'c'];
+
+// use default iterator: for array is @values()
+for (let letter of alphabet) {
+    console.log(letter);
 }

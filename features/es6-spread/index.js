@@ -1,7 +1,7 @@
 // Spread (ES6)
 
-var foo = function (index) {
-    var args = Array.prototype.slice.call(arguments, 1);
+let foo = (index) => {
+    let args = Array.prototype.slice.call(arguments, 1);
     return args[index];
 };
 

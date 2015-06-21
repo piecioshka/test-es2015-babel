@@ -1,6 +1,6 @@
 // Property method assignment (ES6)
 
-var foo = {
+let foo = {
     bar() {
         return 1;
     }
@@ -8,4 +8,5 @@ var foo = {
 
 console.log(foo);
 
-console.assert(foo.bar() === 1);
+console.assert(typeof foo.bar === 'function', 'Should be method od this literal object');
+console.assert(foo.bar() === 1, 'Should works as regular function');

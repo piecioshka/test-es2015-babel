@@ -1,6 +1,6 @@
 // Rest parameters (ES6)
 
-var foo = function (index, ...args) {
+let foo = (index, ...args) => {
     return args[index];
 };
 

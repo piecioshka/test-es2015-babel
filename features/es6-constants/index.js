@@ -9,4 +9,3 @@ try {
 } catch (e) {
     console.assert(true);
 }
-

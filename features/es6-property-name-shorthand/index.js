@@ -1,7 +1,7 @@
 // Property name shorthand (ES6)
 
-var bar = 1;
-var foo = {
+let bar = 1;
+let foo = {
     bar
 };
 

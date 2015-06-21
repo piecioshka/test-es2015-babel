@@ -4,5 +4,5 @@ class TestClass {
     foo = [];
 }
 
-var t = new TestClass();
+let t = new TestClass();
 console.assert(t.foo == []);

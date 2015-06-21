@@ -1,12 +1,14 @@
 # test-babel
 
-Projekt ma na celu przetestowanie wszystkich możliwości jakie daje nam transpiler [Babel.js](https://babeljs.io/).
+## Goal
+
+Testing opportunities which we have using [Babel.js](https://babeljs.io/). 
 
 ![babeljs-logo](./images/babeljs.png)
 
-## Szczegóły
+## Details
 
-Na stronie głównej jest wyszczególniona lista wszystkich rzeczy które wspiera Babel.js:
+On homepage we have list of features which `Babel.js` supports:
 
  - Array comprehensions
  - Arrow functions
@@ -37,4 +39,4 @@ Na stronie głównej jest wyszczególniona lista wszystkich rzeczy które wspier
  - Type annotations
  - Unicode regex
 
-Poznajmy wszystkie te zagadnienia!
+**Get to know them all!**

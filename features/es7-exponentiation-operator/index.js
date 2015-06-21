@@ -1,6 +1,6 @@
 // Exponentiation operator (ES7)
 
-var expo = 2 ** 7;
+let expo = 2 ** 7;
 
 console.log(expo);
 

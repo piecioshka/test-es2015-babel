@@ -1,6 +1,6 @@
 // Type annotations (ES7)
 
-var foo = function (bar: number) {
+let foo = (bar: number) => {
     return bar;
 };
 

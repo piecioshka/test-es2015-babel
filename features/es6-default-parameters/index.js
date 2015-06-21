@@ -1,8 +1,8 @@
 // Default parameters (ES6)
 
-function foo(step = 0) {
+let foo = (step = 0) => {
     return step;
-}
+};
 
 console.log(foo());
 
