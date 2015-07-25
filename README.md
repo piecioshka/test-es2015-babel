@@ -1,4 +1,4 @@
-# test-babel
+# test-es6-babel
 
 ## Goal
 
