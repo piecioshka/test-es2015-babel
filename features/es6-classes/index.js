@@ -26,3 +26,11 @@ console.assert(a.isCreated, 'Create the instance of class should run `constructo
 console.assert(a.baz(), 'Typical method');
 console.assert(Application.foo(), 'Test static method');
 console.assert(Application.bar === 'bar', 'Test static property');
+
+
+// Testing hoisting in class declarations.
+(function () {
+    console.log(Game); // Uncaught TypeError: Game is not a function
+
+    class Game {}
+}());
