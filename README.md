@@ -2,7 +2,7 @@
 
 > Testing opportunities which we have using [Babel.js](https://babeljs.io/). 
 
-![](./images/babeljs.png)
+![](./images/babel-logo.png)
 
 ## Test
 
@@ -15,7 +15,7 @@ npm test
 
 ## Details
 
-On homepage we have list of features which `Babel.js` supports:
+On homepage we have list of features which [Babel.js](https://babeljs.io/) supports:
 
 Left column:
 
@@ -26,7 +26,7 @@ Left column:
 * ES7 Class properties
 * ES6 Computed property names
 * ES6 Constants
-* ES7 Decorators
+* ES7 Decorators - NOT SUPPORTED
 * ES6 Default parameters
 * ES6 Destructuring
 * ES7 Exponentiation operator
@@ -49,6 +49,12 @@ Right column:
 * ES7 Type annotations
 * ES6 Unicode regex
 
----
+Below you can see real screen from [Babel.js](https://babeljs.io/):
 
-**Get to know them all!**
+![](./images/supporting-table.png)
+
+## Current status
+
+![](./images/current-status.png)
+
+Only `decorators` doesn't work.

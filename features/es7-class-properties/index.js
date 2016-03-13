@@ -6,4 +6,4 @@ class TestClass {
 
 let t = new TestClass();
 
-console.assert(t.foo == []);
+console.assert(Object.prototype.toString.call(t.foo) === '[object Array]');

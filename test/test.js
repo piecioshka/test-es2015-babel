@@ -6,24 +6,32 @@ var chalk = require('chalk');
 
 let allFeatures = ls('features');
 let singleFeatures = [
-//    'es6-arrow-functions',
-//    'es6-classes',
-//    'es6-computed-property-names',
-//    'es6-constants',
-//    'es6-default-parameters',
-//    'es6-destructuring',
-//    'es6-for-of',
-//    'es6-generators',
-//    'es6-let-scoping',
-//    'es6-module-export-extensions',
-//    'es6-modules',
-//    'es6-property-method-assignment',
-//    'es6-property-name-shorthand',
-//    'es6-rest-parameters',
-//    'es6-spread',
-//    'es6-template-literals',
-//    'es6-unicode-regex',
-    'es7-async-functions'
+    'es6-arrow-functions',
+    'es6-classes',
+    'es6-computed-property-names',
+    'es6-constants',
+    'es6-default-parameters',
+    'es6-destructuring',
+    'es6-for-of',
+    'es6-generators',
+    'es6-let-scoping',
+    'es6-module-export-extensions',
+    'es6-modules',
+    'es6-property-method-assignment',
+    'es6-property-name-shorthand',
+    'es6-rest-parameters',
+    'es6-spread',
+    'es6-template-literals',
+    'es6-unicode-regex',
+    'es7-async-functions',
+    'es7-async-generator-functions',
+    'es7-class-properties',
+    'es7-decorators',
+    'es7-exponentiation-operator',
+    'es7-function-bind',
+    'es7-object-rest-spread',
+    'es7-type-annotations',
+    'react'
 ];
 
 function test(workingFeatures) {
@@ -39,5 +47,5 @@ function test(workingFeatures) {
     });
 }
 
-test(singleFeatures);
-// test(allFeatures);
+// test(singleFeatures);
+test(allFeatures);

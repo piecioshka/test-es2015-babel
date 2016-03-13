@@ -1,3 +1,9 @@
-// TODO: Async functions (ES7)
+// Async functions (ES7)
 
-console.error('ES7 Async functions ... FAILED');
+// Only when you install: babel-plugin-syntax-async-functions
+
+async function baz() {
+    return 3;
+}
+
+console.assert(baz() instanceof Promise);

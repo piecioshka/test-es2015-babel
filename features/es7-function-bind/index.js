@@ -1,3 +1,11 @@
-// TODO: Function bind (ES7)
+// Function bind (ES7)
 
-console.error('ES7 Function bind ... FAILED');
+function foo() {
+    return this.title;
+}
+
+var bar = {
+    title: 'baz'
+};
+
+console.assert(bar::foo() === 'baz');
