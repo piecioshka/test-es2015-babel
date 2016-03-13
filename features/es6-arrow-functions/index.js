@@ -19,10 +19,10 @@ let Foo = function () {
 
 
 let f = new Foo();
-console.log(f.bar, f.bar());
-console.log(f.baz, f.baz());
 
 console.assert(typeof f.bar === 'function', 'Of course should be a function');
 console.assert(typeof f.baz === 'function', 'Of course should be a function');
 console.assert(f.baz() === f.baz()._api, 'The same API object');
 console.assert(f.baz() === f, 'Return itself');
+
+console.log('ES6 Arrow functions ... OK');

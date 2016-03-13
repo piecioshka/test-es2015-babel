@@ -2,8 +2,6 @@
 
 let [name, surname] = ['a', 'b'];
 
-console.log(name, surname);
-
 console.assert(name === 'a');
 console.assert(surname === 'b');
 
@@ -15,8 +13,9 @@ let {foo, bar, baz} = {
     baz: 'baz'
 };
 
-console.log(foo, bar, baz);
 
 console.assert(foo === 'foo');
 console.assert(bar === 'bar');
 console.assert(baz === 'baz');
+
+console.log('ES6 Destructuring ... OK');

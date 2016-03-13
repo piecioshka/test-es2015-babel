@@ -17,15 +17,24 @@ let object = {
     }
 };
 
+let props = [];
+
 for (let i of object) {
-    console.log(i);
+    props.push(i);
 }
+
+console.assert(String(props) === 'foo,bar,baz');
 
 // ----------------------------------------------------------------------------
 
 let alphabet = ['a', 'b', 'c'];
+let alphabetProps = [];
 
 // use default iterator: for array is @values()
 for (let letter of alphabet) {
-    console.log(letter);
+    alphabetProps.push(letter);
 }
+
+console.assert(alphabetProps === 'a,b,c');
+
+console.log('ES6 For-of ... OK');

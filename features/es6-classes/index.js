@@ -19,7 +19,6 @@ class Application {
 }
 
 let a = new Application();
-console.log(a);
 
 console.assert(typeof a === 'object', 'Of course, instance should be an object');
 console.assert(a.isCreated, 'Create the instance of class should run `constructor` method.');
@@ -30,7 +29,9 @@ console.assert(Application.bar === 'bar', 'Test static property');
 
 // Testing hoisting in class declarations.
 (function () {
-    console.log(Game); // Uncaught TypeError: Game is not a function
+    Game = 3; // Uncaught TypeError: Game is not a function
 
     class Game {}
 }());
+
+console.log('ES6 Classes ... OK');

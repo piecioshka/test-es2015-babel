@@ -5,4 +5,7 @@ class TestClass {
 }
 
 let t = new TestClass();
+
 console.assert(t.foo == []);
+
+console.log('ES7 Class properties ... OK');

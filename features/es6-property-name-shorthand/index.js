@@ -5,6 +5,6 @@ let foo = {
     bar
 };
 
-console.log(foo);
-
 console.assert(foo.bar === bar);
+
+console.log('ES6 Property name shorthand ... OK');

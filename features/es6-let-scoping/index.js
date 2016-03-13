@@ -6,14 +6,14 @@ let foo = () => {
     var overwrite = () => {
         console.assert(typeof bar === 'undefined', 'In this scope bar is not exists');
         let bar = 'bax';
-        console.log(bar);
         console.assert(bar === 'bax');
     };
 
     overwrite();
 
-    console.log(bar);
     console.assert(bar === 'baz');
 };
 
 foo();
+
+console.error('ES6 Let scoping ... FAILED');

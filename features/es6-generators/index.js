@@ -9,16 +9,6 @@ function * foo() {
 
 let bar = foo();
 
-console.log(bar);
-console.log(bar.next().value);
-console.log(bar.next().value);
-console.log(bar.next().value);
-console.log(bar.next().value);
-console.log(bar.next().value);
-
-// resetting generator
-bar = foo();
-
 console.assert(foo().next().value === 1);
 console.assert(bar.next().value === 1);
 console.assert(bar.next().value === 2);
@@ -30,3 +20,5 @@ bar = foo();
 for (let item of bar) {
     console.info(item);
 }
+
+console.log('ES6 Generator ... OK');
