@@ -7,7 +7,4 @@ let foo = {
 };
 
 console.assert(foo.bar4 === 'baz');
-// retrieve symbol `cake`
 console.assert(foo[Symbol.for('cake')] === 'foo');
-
-console.log('ES6 Computed property names ... OK');

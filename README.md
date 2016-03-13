@@ -17,33 +17,38 @@ npm test
 
 On homepage we have list of features which `Babel.js` supports:
 
-* Array comprehensions
-* Arrow functions
-* Async functions
-* Async generator functions
-* Classes
-* Class properties
-* Computed property names
-* Constants
-* Decorators
-* Default parameters
-* Destructuring
-* Exponentiation operator
-* For-of
-* Function bind
-* Generators
-* Generator comprehensions
-* Let scoping
-* Modules
-* Module export extensions
-* Object rest/spread
-* Property method assignment
-* Property name shorthand
-* Rest parameters
+Left column:
+
+* ES6 Arrow functions
+* ES7 Async functions
+* ES7 Async generator functions
+* ES6 Classes
+* ES7 Class properties
+* ES6 Computed property names
+* ES6 Constants
+* ES7 Decorators
+* ES6 Default parameters
+* ES6 Destructuring
+* ES7 Exponentiation operator
+* ES6 For-of
+* ES7 Function bind
+
+Right column:
+
+* ES6 Generators
+* ES6 Let scoping
+* ES6 Modules
+* ES6 Module export extensions
+* ES6 Object rest/spread
+* ES6 Property method assignment
+* ES6 Property name shorthand
+* ES6 Rest parameters
 * React
-* Spread
-* Template literals
-* Type annotations
-* Unicode regex
+* ES6 Spread
+* ES6 Template literals
+* ES7 Type annotations
+* ES6 Unicode regex
+
+---
 
 **Get to know them all!**

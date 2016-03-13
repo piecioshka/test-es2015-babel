@@ -26,12 +26,9 @@ console.assert(a.baz(), 'Typical method');
 console.assert(Application.foo(), 'Test static method');
 console.assert(Application.bar === 'bar', 'Test static property');
 
-
 // Testing hoisting in class declarations.
 (function () {
-    Game = 3; // Uncaught TypeError: Game is not a function
-
+    console.assert(Game === undefined);
     class Game {}
+    console.assert(typeof Game === 'function');
 }());
-
-console.log('ES6 Classes ... OK');

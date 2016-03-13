@@ -6,7 +6,5 @@ let foo = {
     }
 };
 
-console.assert(typeof foo.bar === 'function', 'Should be method od this literal object');
-console.assert(foo.bar() === 1, 'Should works as regular function');
-
-console.log('ES6 Property method assignment ... OK');
+console.assert(typeof foo.bar === 'function');
+console.assert(foo.bar() === 1);

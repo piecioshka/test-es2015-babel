@@ -1,11 +1,7 @@
 // Constants (ES6)
 
-const foo = 'bar';
-
 try {
-    foo = 1;
-} catch (e) {
+    eval('const foo = "bar";foo = 1;');
+} catch (err) {
     console.assert(true);
 }
-
-console.error('ES6 Constants ... FAILED');

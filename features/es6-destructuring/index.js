@@ -13,9 +13,6 @@ let {foo, bar, baz} = {
     baz: 'baz'
 };
 
-
 console.assert(foo === 'foo');
 console.assert(bar === 'bar');
 console.assert(baz === 'baz');
-
-console.log('ES6 Destructuring ... OK');

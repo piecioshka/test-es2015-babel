@@ -23,7 +23,7 @@ for (let i of object) {
     props.push(i);
 }
 
-console.assert(String(props) === 'foo,bar,baz');
+console.assert(props.toString() === 'foo,bar,baz');
 
 // ----------------------------------------------------------------------------
 
@@ -35,6 +35,4 @@ for (let letter of alphabet) {
     alphabetProps.push(letter);
 }
 
-console.assert(alphabetProps === 'a,b,c');
-
-console.log('ES6 For-of ... OK');
+console.assert(alphabetProps.toString() === 'a,b,c');
