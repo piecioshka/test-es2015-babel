@@ -1,4 +1,4 @@
-# test-es6-babel
+# test-es2015-babel
 
 > Testing opportunities which we have using [Babel.js](https://babeljs.io/). 
 
@@ -16,8 +16,7 @@ Below you can see real screen from [Babel.js](https://babeljs.io/):
 You try to run test by command:
 
 ```
-npm install
-npm test
+$ npm test
 ```
 
 Current status of `npm test` command:
