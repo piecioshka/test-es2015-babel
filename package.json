@@ -1,6 +1,6 @@
 {
     "private": true,
-    "test": "test-es6-babel",
+    "test": "test-es2015-babel",
     "scripts": {
         "clear": "rm -rf node_modules/",
         "test": "node ./test/test.js"
