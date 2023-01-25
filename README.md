@@ -1,22 +1,23 @@
 # test-es2015-babel
 
-> Testing opportunities which we have using [Babel.js](https://babeljs.io/). 
+Testing opportunities of [Babel.js](https://babeljs.io/). 
 
 ![](./images/babel-logo.png)
 
 ## Details
 
-On homepage we have list of features which [Babel.js](https://babeljs.io/) supports.
-Below you can see real screen from [Babel.js](https://babeljs.io/):
+We do have the list of features on the [Babel.js](https://babeljs.io/) homepage.
+
+Below you can see real screen from [Babel.js](https://babeljs.io/) page:
 
 ![](./images/supporting-table.png)
 
-## Test
+## Unit Tests
 
 You try to run test by command:
 
-```
-$ npm test
+```bash
+npm test
 ```
 
 Current status of `npm test` command:
