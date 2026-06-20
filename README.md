@@ -25,3 +25,7 @@ Current status of `npm test` command:
 ![](./images/current-status.png)
 
 Conclusion: only `decorators` doesn't work.
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
